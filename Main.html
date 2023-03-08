@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="TrangTri.css">
+</head>
+<body>
+    
+<nav id = "nb">   
+<button id = "DangKy" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+</nav>
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+<h1 id = "MY">HSON STORE</h1>
+<nav id="nalist">
+    <a href="#iPhone">iPhone</a>
+    <a href="#samsung">Samsung</a>
+    <a href="#oppo">Oppo</a>
+    <a href="#vivo">Vivo</a>
+</nav>
+<div id = "container_iphone">
+    <fieldset id="iPhone">
+        <legend><b><i>iPhone</i></b></legend>
+        <div id="iphone_left">
+            
+            <i>Our store's iPhone models</i>
+            <ul>
+                <li>
+                    iPhone 11 
+                    <img src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-trang-1-2-org.jpg" width="70" height="60">
+                </li>
+                <li>
+                    iPhone 12
+                    <img src="https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-trang-1-1-org.jpg" alt="" width="70" height="60">
+                </li>
+                <li>
+                    iPhone 13
+                    <img src="https://cdn.tgdd.vn/Products/Images/42/223602/iphone-13-1-4.jpg" alt="" width="70" height="60">
+                </li>
+                <li>
+                    iPhone 14
+                    <img src="https://cdn.tgdd.vn/Products/Images/42/240259/iphone-14-den-glr-1.jpg" alt="" width="70" height="60">
+                </li>
+       
+            </ul>
+        </div> 
+        <div id="iphone_right">
+            <table>
+                <tr>
+                    <th>
+                        Phiên Bản
+                    </th>
+                    <th>
+                        Giá Bán
+                    </th>
+                    <th>
+                        Bộ Nhớ
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        iPhone 11
+                    </td>
+                    <td>
+                        11500000 vnđ
+                    </td>
+                    <td>
+                        16GB
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        iPhone 12
+                    </td>
+                    <td>
+                        15500000 vnđ
+                    </td>
+                    <td>
+                        16GB
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        iPhone 13
+                    </td>
+                    <td>
+                        20500000 vnđ
+                    </td>
+                    <td>
+                        32GB
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        iPhone 14
+                    </td>
+                    <td>
+                        23500000 vnđ
+                    </td>
+                    <td>
+                        64GB
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <i>some introductory videos about iPhone</i>
+            <ul>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=XJBzgCYNfhM" target="_blank">Giới Thiệu iPhone 11</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=Gub0hJv0OAQ" target="_blank">Giới Thiệu iPhone 12</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=KgBEsKlst1Y" target="_blank">Giới Thiệu iPhone 13</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=0L0xg_bqwsE" target="_blank">Giới Thiệu iPhone 14</a>
+                </li>
+            </ul>
+        </div>
+    </fieldset>
+</div>
+<div id="container_samsung">
+    <fieldset id = "samsung">
+        <legend><b><i>SamSung</i></b></legend>
+        <div id="samsung_left">
+            
+            <i>Samsung models of our store</i>
+            <ul>
+                <li>
+                    Samsung Galaxy S23
+                    <img src="https://cdn.tgdd.vn/Products/Images/42/264060/samsung-galaxy-s23-hong-1.jpg" alt="" width="70" height="60">
+                </li>
+                <li>
+                    Samsung Galaxy A23
+                    <img src="https://cdn.tgdd.vn/Products/Images/42/262650/samsung-galaxy-a23-4g-1.jpg" alt="" width="70" height="60">
+                </li>
+                <li>
+                    Samsung Galaxy Z Fold4
+                    <img src="https://cdn.tgdd.vn/Products/Images/42/250625/samsung-galaxy-z-fold4-256gb-1.jpg" alt="" width="70" height="60">
+                </li>
+                <li>
+                    Samsung Galaxy S22 Ultra
+                    <img src="https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg" alt="" width="70" height="60">
+                </li>
+            </ul>
+        </div>
+        <div id="samsung_right">
+            <table>
+                <tr>
+                    <th>
+                        Phiên Bản
+                    </th>
+                    <th>
+                        Giá Bán
+                    </th>
+                    <th>
+                        Bộ Nhớ
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        Samsung Galaxy S23
+                    </td>
+                    <td>
+                        11500000 vnđ
+                    </td>
+                    <td>
+                        16GB
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Samsung Galaxy A23
+                    </td>
+                    <td>
+                        15500000 vnđ
+                    </td>
+                    <td>
+                        16GB
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Samsung Galaxy Z Fold4
+                    </td>
+                    <td>
+                        20500000 vnđ
+                    </td>
+                    <td>
+                        32GB
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Samsung Galaxy S22 Ultra
+                    </td>
+                    <td>
+                        23500000 vnđ
+                    </td>
+                    <td>
+                        64GB
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <i>some introductory videos about SamSung</i>
+            <ul>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=HtOsIE5Ks08" target="_blank">Giới Thiệu Samsung Galaxy S23</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=JTK5kbdovOU" target="_blank">Giới Thiệu Samsung Galaxy A23</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=nuw5y6qmmog" target="_blank">Giới Thiệu Samsung Galaxy Z Fold4</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=LEcn5IH64kk" target="_blank">Giới Thiệu Samsung Galaxy S22 Ultra</a>
+                </li>
+            </ul>
+        </div>
+    </fieldset>
+</div>
+<div id="container_oppo">
+    <fieldset id="oppo">
+        <legend><b><i>Oppo</i></b></legend>
+        <div id="oppo_left">
+            <i>Oppo models of our store</i>
+            <ul>
+                <li>
+                    OPPO Reno8 T
+                    <img src="https://cdn.tgdd.vn/Products/Images/42/301642/oppo-reno8-t-vang-5g-1.jpg" alt="" width="70" height="60">
+                </li>
+                <li>
+                    OPPO Reno8 Pro
+                    <img src="https://cdn.tgdd.vn/Products/Images/42/260546/oppo-reno8-pro-xanh-1.jpg" alt="" width="70" height="60">
+                </li>
+                <li>
+                    OPPO Find X5 Pro
+                    <img src="https://cdn.tgdd.vn/Products/Images/42/250622/oppo-find-x5-pro-1-1.jpg" alt="" width="70" height="60">
+                </li>
+                <li>
+                    OPPO Reno6 5G 
+                    <img src="https://cdn.tgdd.vn/Products/Images/42/236186/oppo-reno6-den-1-org.jpg" alt="" width="70" height="60">
+                </li>
+            </ul>
+        </div>
+        <div id="oppo_right">
+            <table>
+                <tr>
+                    <th>
+                        Phiên Bản
+                    </th>
+                    <th>
+                        Giá Bán
+                    </th>
+                    <th>
+                        Bộ Nhớ
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        OPPO Reno8 T
+                    </td>
+                    <td>
+                        11500000 vnđ
+                    </td>
+                    <td>
+                        16GB
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        OPPO Reno8 Pro
+                    </td>
+                    <td>
+                        15500000 vnđ
+                    </td>
+                    <td>
+                        16GB
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        OPPO Find X5 Pro
+                    </td>
+                    <td>
+                        20500000 vnđ
+                    </td>
+                    <td>
+                        32GB
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        OPPO Reno6 5G
+                    </td>
+                    <td>
+                        23500000 vnđ
+                    </td>
+                    <td>
+                        64GB
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <i>some introductory videos about Oppo</i>
+            <ul>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=HylwYbCzjkU" target="_blank">Giới Thiệu OPPO Reno8 T</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=-0W4xAgsvWU" target="_blank">Giới Thiệu OPPO Reno8 Pro</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=Lfms_UJYxvE" target="_blank">Giới Thiệu OPPO Find X5 Pro</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=M-P_IH4DL9w" target="_blank">Giới Thiệu OPPO Reno6 5G</a>
+                </li>
+            </ul>
+        </div>
+    </fieldset>
+</div>
+<div id="container_vivo">
+    <fieldset id="vivo">
+        <legend><b><i>Vivo</i></b></legend>
+        <div id="vivo_left">
+            <i>Oppo models of our store</i>
+            <ul>
+                <li>
+                    Vivo Y35
+                    <img src="https://cdn.tgdd.vn/Products/Images/42/286697/vivo-y35-vang-1.jpg" alt="" width="70" height="60">
+                </li>
+                <li>
+                    Vivo V25
+                    <img src="https://cdn.tgdd.vn/Products/Images/42/283148/vivo-v25-vang-1.jpg" alt="" width="70" height="60">
+                </li>
+                <li>
+                    Vivo Y02s
+                    <img src="https://cdn.tgdd.vn/Products/Images/42/285032/vivo-y02s-den-1-1.jpg" alt="" width="70" height="60">
+                </li>
+                <li>
+                    Vivo V25 Pro
+                    <img src="https://cdn.tgdd.vn/Products/Images/42/282389/vivo-v25-pro-5g-sld-xanh-1.jpg" alt="" width="70" height="60">
+                </li>
+            </ul>
+        </div>
+        <div id="vivo_right">
+            <table>
+                <tr>
+                    <th>
+                        Phiên Bản
+                    </th>
+                    <th>
+                        Giá Bán
+                    </th>
+                    <th>
+                        Bộ Nhớ
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        Vivo Y35
+                    </td>
+                    <td>
+                        11500000 vnđ
+                    </td>
+                    <td>
+                        16GB
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Vivo V25
+                    </td>
+                    <td>
+                        15500000 vnđ
+                    </td>
+                    <td>
+                        16GB
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Vivo Y02s
+                    </td>
+                    <td>
+                        20500000 vnđ
+                    </td>
+                    <td>
+                        32GB
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Vivo V25 Pro
+                    </td>
+                    <td>
+                        23500000 vnđ
+                    </td>
+                    <td>
+                        64GB
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <i>some introductory videos about Oppo</i>
+            <ul>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=nKxJO0ES9ro" target="_blank">Giới Thiệu Vivo Y35</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=UthInZEldUM" target="_blank">Giới Thiệu Vivo V25</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=nj8HOMpwE10" target="_blank">Giới Thiệu Vivo Y02s</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=M-P_IH4DL9w" target="_blank">Giới Thiệu Vivo V25 Pro</a>
+                </li>
+            </ul>
+        </div>
+    </fieldset>
+</div>
+<footer>Create By <i>Hồng Sơn : </i> <a href="mailto:Hongson16042003@gmail.com">Email Me</a></footer>
+</body>
+<script src="TuongTac.js"></script>
+</html>
